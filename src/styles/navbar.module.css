@@ -1,0 +1,64 @@
+.main {
+  display: flex;
+  background-color: antiquewhite;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PageLogin {
+  width: 12%;
+  display: flex;
+  margin-right: 30px;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 40%;
+  border-radius: 8px;
+  background-color: aqua;
+  text-align: center;
+  height: 40px;
+}
+
+.btn a {
+  margin-top: auto;
+  vertical-align: -webkit-baseline-middle;
+}
+
+
+.userInfo{
+  width: 12%;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user{
+  font-style: italic;
+  margin-right: 10px;
+}
+
+.logout{
+  border-radius: 8px;
+  width: 40%;
+  text-align: center;
+  height: 40px;
+  background-color: red;
+
+}
+
+.logout a {
+
+  color: antiquewhite;
+  text-decoration: none;
+  vertical-align: -webkit-baseline-middle;
+
+}
+
+.title{
+  font-style: italic;
+  font-size:xx-large;
+  margin-left: 20px;
+}

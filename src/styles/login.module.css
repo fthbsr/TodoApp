@@ -1,0 +1,49 @@
+.error {
+  color: red;
+}
+
+
+.title{
+  width: 100%;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.loginForm {
+  border: 1px solid black;
+  width: 50%;
+  height: 450px;
+  margin: auto;
+  margin-top: 6%;
+  border-radius: 8px;
+  background-color: antiquewhite;
+}
+
+label {
+    margin-top: auto ;
+  display: flex;
+  justify-content: center;
+}
+input{
+  border-radius: 8px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.button button{
+  width: 30%;
+  height: 40px;
+  font-size: large;
+  background-color: aqua;
+  border-radius: 8px;
+}
+
+.errors{
+  color:red;
+  text-align: center;
+  font-size: large;
+}

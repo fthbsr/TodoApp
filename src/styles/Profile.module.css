@@ -1,0 +1,103 @@
+.page {
+  background-color: antiquewhite;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+
+.container {
+  padding-left: auto;
+  width: 100%;
+}
+
+.title {
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.form input{
+    width: 60%;
+    height: 25px;
+    border-radius: 6px;
+}
+
+.form button{
+    width: 20%;
+    font-size: 130%;
+    font-style: italic;
+    margin-right: 20px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+.list{
+    display: flex;
+    background-color: lightgrey;
+    height: 60px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 6px;
+
+}
+
+
+.list p{
+    text-align: center;
+    background-color: aliceblue;
+    width: 90%;
+    align-content: center;
+    height: 50%;
+    margin: auto;
+    border-radius: 3px;
+    font-size: large;
+    font-style: italic;
+
+}
+
+.content{
+text-decoration: line-through;
+}
+
+
+
+
+.button{
+    background-color: red;
+    height: 50%;
+    margin: auto;
+}
+
+
+.error{
+  color: red;
+  text-align: center;
+  font-size: large;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.loading {
+  margin-top: -20px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.select{
+  display: flex;
+  justify-content: center;
+}
+
+.select button{
+  margin: 5px;
+  font-size: large;
+  width: 30%;
+}

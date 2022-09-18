@@ -1,0 +1,59 @@
+.sigin {
+  width: 50%;
+  margin: auto;
+  margin-top: 60px;
+  height: 600px;
+  background-color: antiquewhite;
+  border-radius: 16px;
+  border: 1px solid white;
+}
+
+label {
+  font-size: x-large;
+  margin-bottom: 20px;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 24px;
+}
+
+.title {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 250%;
+  text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button button{
+    width: 30%;
+    height: 40px;
+    font-size: large;
+    background-color: aqua;
+    border-radius: 8px;
+}
+
+.error{
+  color:red;
+  text-align: center;
+  font-size: large;
+}
+
+
+.siginLoad{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: large;
+}
